@@ -1,0 +1,73 @@
+@import "_base";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.contain{
+    margin: center;
+    padding-left: $twenpx;
+    padding-right: $twenpx;
+    padding-bottom: 150px;
+}
+.header{
+    h1{
+        font-family: $g;
+        font-size: 400%;
+    }
+}
+.profile{
+    padding-top: 100px;
+    color: #f7f7f7;
+
+    h1{
+        font-size: 3em;
+        padding-bottom: $tenpx;
+    }
+    p{
+        font-size: 1.2em;
+        text-align: justify;
+        margin: center;
+    }
+}
+.img-custom{
+    width: 100%;
+}
+.pfp {
+    float: left;
+    margin-right: 25px;
+    width: 250px;
+    box-shadow: 1px 1px 7px black;
+}
+/* responsive changes*/
+@media screen and (max-width: 768px) {
+
+    /* less dramatic margins for smaller screens */
+.profile {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.pfp {
+  float: none;
+  margin: auto;
+}
+}
+.l{
+    font-family: $g;
+}
+.t{
+    font-family: $gta;
+    font-size: 3em;
+}
+.i{
+    width: 90%;
+}
+.h{
+    padding-top: 18%;
+    font-size: 200%;
+    font-family: $g;
+}
+.k{
+    font-family: $g;
+}
